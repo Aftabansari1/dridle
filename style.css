@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:rgb(247, 243, 237);
+}
+.header-body{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.header-body h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.header-body button{
+    margin-top: 30px;
+    width: 75px;
+    height: 75px;
+    background-color:rgb(235, 199, 132);
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 15px; 
+}
+
+
+
+/* ---------2nd section ------- */
+.second-section{
+   background-color:blue;
+   padding: 6% 5%;
+   color:#fff;
+   /* height: 50vh; */
+}
+.second-section-body{
+    display: flex;
+    justify-content: space-between;
+}
+.second1 {
+   width: 37%;
+}
+.second1 small{
+    border: 0.1px rgb(140, 139, 139) solid;
+    padding: 5px 10px ;
+}
+.border-1{
+    padding: 13px;
+    background-color:#023cae;
+    border:none;
+    margin-top: 37%;
+    border-radius: 50%;
+    width: 50px;
+
+}
+.second1 h3{
+    padding: 5px 0;
+}
+.second1 .btn{
+   border-radius:0;
+   /* padding: 2px 4px; */
+   font-size: 11px;
+   color:#fff;
+}
+.second2{
+  width: 55%;
+}
+.second2 img{
+    width: 100%;
+    height: 100%;
+}
+.small{
+    display: flex;
+}
+
+
+/* ----------media query--------- */
+@media only screen and (max-width:600px){
+    .second-section{
+        /* padding: 6% 5%; */
+        height: 50vh;
+     }
+}
+
+@media only screen and (max-width:360px){
+    .second-section{
+        padding: 6% 1% !important;
+        /* height: 50vh; */
+     }
+    
+    .header-body h2{
+        font-size: 20px;
+    }
+    .header-body button{
+        margin-top: 30px;
+        width: 50px;
+        height: 50px;
+        font-size: 10px; 
+    }
+    .second1 {
+        width: 30%;
+     }
+     .second1 small{
+        padding: 2px 2px ;
+    }
+    .border-1{
+        padding: 10px;
+        margin-top: 30%;
+        width: 45px;
+    }
+    .second1 h3{
+        padding: 4px 0;
+       
+    }
+    .second1 .btn{
+        font-size: 8px;
+     }
+     .second2{
+        width: 55%;
+      }
+
+}
+
+@media only screen and (max-width:200px){
+    .small{
+        display: block;
+    }
+    .second1 h3{
+         font-size:16px ;
+    }
+}
+
